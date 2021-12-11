@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>place order</title>
+</head>
+<body>
+    
+    <div class="topnav">        
+        <a href="index.html">Home</a>
+        <a href="Cus_manage.html">Customer Management</a>
+        <a href="Item_manage.html">Item Management</a>
+        <a href="Place_order.html">Place Order</a>
+      </div>
+      <center><h1>Place Order</h1>
+      </center>
+      
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label>Date</label>
+          <input type="date"placeholder="Date"><br>
+          <br><br>
+          <label>Order Id</label>
+          <input type="text"placeholder="Order ID">
+
+          <label>Customer Name/Id</label>
+          <input type="text"placeholder="Customer Name/Id">
+
+          <label>Customer Mobile</label>
+          <input type="text"placeholder="Customer Mobile">
+
+          <label>Item Id</label>
+          <input type="text"placeholder="Item ID">
+
+          <label>Qty</label>
+          <input type="text"placeholder="Qty">
+
+          <label>Price</label>
+          <input type="text"placeholder="Price">
+
+          <input type="submit" value="Place Order">
+      
+        </form>
+    </div>
+<br>
+<br>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Qty</th>
+          <th>Total</th>
+        </tr>
+        
+      </table>
+
+<br><br>
+<div class="container">
+    <form action="action_page.php">
+  
+      <label>Cash</label>
+      <input type="text"placeholder="Cash"><br>    
+
+      <label>Balance</label>
+      <input type="text"placeholder="Balance">
+
+      <label>Discount</label>
+      <input type="text"placeholder="Discount">
+
+     <h3>Total :</h3>
+
+    <input type="button" value="Clear">
+    <input type="button" value="Renew Order">
+    <input type="submit" value="Submit Order">
+  
+    </form>
+  </div>
+</body>
+</html>
